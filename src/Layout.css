@@ -1,0 +1,105 @@
+/* Layout.css */
+.header-section {
+    background-color: black;
+  }
+  
+  .profile-section {
+    background-color: black;
+    margin-top: -40px;
+    margin-bottom: 100px;
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    padding: 0;
+    margin: 40px;
+  }
+  
+  .navbar-item {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .social-icons {
+    margin-top: 260px;
+  }
+  
+  .logo {
+    background-color: black;
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Mobile Layout.css */
+
+/* General styles for mobile devices */
+@media (max-width: 768px) {
+  .header-section {
+    background-color: black;
+    padding: 20px; /* Added padding for mobile devices */
+  }
+  
+  .profile-section {
+    background-color: black;
+    margin-top: 20px; /* Reduced top margin for mobile screens */
+    margin-bottom: 60px; /* Reduced bottom margin for mobile screens */
+    text-align: center; /* Center-align text for better mobile layout */
+    display: flex;
+    flex-direction: column; /* Stacked layout for mobile */
+    align-items: center; /* Center-align items */
+  }
+  
+  .navbar-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0; /* Reduced margin for mobile devices */
+    text-align: center; /* Center-align navbar items */
+  }
+  
+  .navbar-item {
+    display: inline-block; /* Changed to inline-block for better mobile alignment */
+    margin-right: 10px; /* Reduced margin between items */
+    font-size: 16px; /* Adjusted font size for mobile devices */
+  }
+  
+  .social-icons {
+    margin-top: 20px; /* Reduced margin-top for mobile screens */
+    font-size: 24px; /* Adjusted font size for mobile devices */
+    text-align: center; /* Center-align social icons */
+  }
+  
+  .logo {
+    background-color: black;
+    width: 80px; /* Reduced logo width for mobile devices */
+    height: auto;
+    margin: 10px; /* Added margin for better positioning */
+    display: block; /* Ensured block display */
+    margin-left: auto; /* Center logo horizontally */
+    margin-right: auto; /* Center logo horizontally */
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-section {
+    margin-top: 10px; /* Further reduced top margin */
+    margin-bottom: 40px; /* Further reduced bottom margin */
+  }
+
+  .navbar-item {
+    font-size: 14px; /* Further adjusted font size for smaller screens */
+    margin-right: 8px; /* Further reduced margin between items */
+  }
+
+  .social-icons {
+    font-size: 20px; /* Further adjusted font size for smaller screens */
+  }
+
+  .logo {
+    width: 60px; /* Further reduced logo width for very small screens */
+  }
+}
