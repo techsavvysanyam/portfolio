@@ -16,8 +16,8 @@ const LandingPage = () => {
           <Col className="text-right align-self-center">
             <div className="name">SANYAM</div>
             <div className="lname">SONI</div>
-            <div className="additional-text">Android Enthusiast</div>
-            <div className="additional-text-sec">Tech | Android | Web | IT</div>
+            <div className="additional-text">Android Developer</div>
+            <div className="additional-text-sec">Tech | Content Creator | Android | Web | </div>
           </Col>
         </Row>
       </Container>
