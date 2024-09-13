@@ -12,6 +12,8 @@ function qualifications() {
               <Image className="logo" src={require("./techsavvy-logo.png")} alt="Logo" />
             </div>
             <h1 className="header-title">QULALIFICATIONS</h1>
+            <br/>
+            <br/>
             <h2 className="projectSS">Education</h2>
             <ul className="project-list">
               <li className="cursive-text">
@@ -29,6 +31,8 @@ function qualifications() {
                 <br />
               </li>
             </ul >
+            <br/>
+            <br/>
             <h2 className="projectSS">Certifications</h2>
             <ul className="project-list">
               <li>
