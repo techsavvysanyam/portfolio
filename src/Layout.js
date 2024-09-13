@@ -40,10 +40,13 @@ const Layout = ({ children }) => {
                   <Link to="/">Home</Link>
                 </li>
                 <li className="navbar-item">
-                  <Link to="/about">About</Link>
+                  <Link to="/qualifications">Qualifications</Link>
                 </li>
                 <li className="navbar-item">
                   <Link to="/projects">Projects</Link>
+                </li>
+                <li className="navbar-item">
+                  <Link to="/about">About</Link>
                 </li>
                 <li className="navbar-item">
                   <Link to="/contact">Contact</Link>
