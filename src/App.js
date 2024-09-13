@@ -5,7 +5,7 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import LandingPage from './LandingPage';
-import qualifications from './qualifications';
+import Qualifications from './qualifications';
 import Layout from './Layout'; // Import the new Layout component
 
 function App() {
