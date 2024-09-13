@@ -25,6 +25,7 @@ body {
 }
 
 .header-title {
+  animation: fadeInUp 1.5s ease-in-out;
   -webkit-text-stroke: 1px #00b7ff;
   color: transparent;
   font-size: 60px;
