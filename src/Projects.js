@@ -18,37 +18,37 @@ function Projects() {
           <Col xs={12}>
             <h2 className="projectSS">ANDROID PROJECTS</h2>
             <ul className="project-list">
+            <li>
+                <a href="https://github.com/Sanyamsoni77/Meme-Station" target="_blank" rel="noopener noreferrer">
+                  - Detetify: Offline Recognition & Detection 
+                </a>
+              </li>
               <li>
                 <a href="https://github.com/Sanyamsoni77/Meme-Station" target="_blank" rel="noopener noreferrer">
-                  - MEME STATION
+                  - Meme Station: Instant Meme Hub
                 </a>
               </li>
               <li>
                 <a href="https://github.com/Sanyamsoni77/MultiTableX" target="_blank" rel="noopener noreferrer">
-                  - MultiTableX
+                  - MultiTableX: For Students Quick Table Finder
                 </a>
               </li>
               <li>
                 <a href="https://github.com/Sanyamsoni77/Greetify" target="_blank" rel="noopener noreferrer">
-                  - GREETIFY
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/Sanyamsoni77/Unit-Swap" target="_blank" rel="noopener noreferrer">
-                  - UNIT SWAP
+                  - Greetify: Birthday Card Maker - Type, Create, Celebrate 
                 </a>
               </li>
             </ul>
             <h2 className="projectSSS">WEB PROJECTS</h2>
             <ul className="project-list">
-              <li>
-                <a href="https://github.com/Sanyamsoni77/Online-RTO-PROJECT" target="_blank" rel="noopener noreferrer">
-                  - ONLINE RTO MANAGEMENT SYSTEM
+            <li>
+                <a href="https://portfolio-techsavyysanyam.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  - Personal Portfolio
                 </a>
               </li>
               <li>
-                <a href="https://sanyamsoni77.github.io/Online-RTO-PROJECT/" target="_blank" rel="noopener noreferrer">
-                  - VISIT THIS SITE
+                <a href="https://github.com/Sanyamsoni77/Online-RTO-PROJECT" target="_blank" rel="noopener noreferrer">
+                  - ONLINE RTO MANAGEMENT SYSTEM
                 </a>
               </li>
             </ul>

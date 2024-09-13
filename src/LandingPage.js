@@ -17,7 +17,7 @@ const LandingPage = () => {
             <div className="name">SANYAM</div>
             <div className="lname">SONI</div>
             <div className="additional-text">Android Developer</div>
-            <div className="additional-text-sec">Tech | Content Creator | Android | Web | </div>
+            <div className="additional-text-sec">Tech | Content Creator | Android | Web </div>
           </Col>
         </Row>
       </Container>
