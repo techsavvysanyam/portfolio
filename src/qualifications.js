@@ -13,6 +13,9 @@ function qualifications() {
             </div>
             <h1 className="header-title">QULALIFICATIONS</h1>
             <ul className="project-list">
+            <br />
+            <br />
+            <br />
             <h2 className="projectSS">Education</h2>
               <li className="cursive-text">
                 <strong>Bachelor's Degree in Computer Applications (BCA)</strong>, Govt. College, Dharamshala Affiliated HPU, Shimla.
