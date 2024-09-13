@@ -32,7 +32,7 @@ function About() {
             </p>
 
             <h2>Education</h2>
-            <ul>
+            <ul className="project-list">
               <li className="cursive-text">
                 <strong>Bachelor's Degree in Computer Applications (BCA)</strong>, Govt. College, Dharamshala Affiliated HPU, Shimla.
                 <br />
