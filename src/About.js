@@ -47,9 +47,9 @@ function About() {
                 <em>2022 - 2024</em>
                 <br />
               </li>
-            </ul>
+            </ul >
             <h2>Certifications</h2>
-            <ul>
+            <ul className="project-list">
               <li>
                 <strong>Android With Kotlin</strong>, Infosys Springboard
                 <br />
