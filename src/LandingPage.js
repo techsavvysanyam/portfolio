@@ -18,8 +18,10 @@ const LandingPage = () => {
             <div className="lname">SONI</div>
             <div className="additional-text">Android Developer</div>
             <div className="additional-text-sec">Tech | Content Creator | Android | Web </div>
-            
-            <h1 className="header-title">ABOUT ME</h1>
+          </Col>
+        </Row>
+        <Row className="projects-section">
+        <h1 className="header-title">ABOUT ME</h1>
             <p className="cursive-text">
               I am a passionate Android developer with a strong background in IT operations. I thrive on challenges and enjoy finding innovative solutions to complex problems. With a deep love for technology and a constant desire to learn and grow new tech concepts and also share same knowledge by creating content and posting on social platforms, I am always up-to-date with the latest industry trends and updates, and improving all the mix of tech trends day by day.
             </p>
@@ -143,9 +145,6 @@ const LandingPage = () => {
                 <br />
               </li>
             </ul>
-          </Col>
-        </Row>
-        <Row className="projects-section">
           <Col xs={12}>
             <h2 className="projectSS">ANDROID PROJECTS</h2>
             <ul className="project-list">
