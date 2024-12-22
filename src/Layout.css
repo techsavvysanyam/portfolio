@@ -1,113 +1,140 @@
-/* Layout.css */
 .header-section {
-    background-color: black;
-  }
-  
+  background-color: black;
+}
+
+.profile-section {
+  background-color: black;
+  margin-top: -40px;
+  margin-bottom: 100px;
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-menu {
+  display: none; /* Hidden by default */
+  cursor: pointer;
+  font-size: 30px;
+  color: #e2e2e2;
+  position: absolute;
+  top: 20px;
+  right: 20px; /* Position on the right side of the header */
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  margin: 40px;
+}
+
+.navbar-item {
+  display: inline;
+  margin-right: 20px;
+}
+
+.social-icons {
+  margin-top: 260px;
+}
+
+.logo {
+  background-color: black;
+  width: 100px;
+  height: auto;
+}
+
+/* Mobile Layout */
+@media (max-width: 768px) {
+  .about-page {
+    background-color: #000;
+    color: #fff;
+    padding: 0px;
+    }
+
   .profile-section {
     background-color: black;
-    margin-top: -40px;
     margin-bottom: 100px;
+    margin-top: 200px;
     text-align: right;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  
-  .navbar-list {
-    list-style: none;
-    padding: 0;
-    margin: 40px;
-  }
-  
-  .navbar-item {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .social-icons {
-    margin-top: 260px;
-  }
-  
-  .logo {
-    background-color: black;
-    width: 100px;
-    height: auto;
-  }
-  
-  /* Mobile Layout.css */
 
-/* General styles for mobile devices */
-@media (max-width: 768px) {
-  .header-section {
+  /* Navbar List (Hidden by default on mobile) */
+  .navbar-list {
+    display: none;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
-    padding: 20px; /* Added padding for mobile devices */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1; /* Ensure it stays above social icons */
   }
-  
-  .profile-section {
-    background-color: black;
-    margin-top: 20px; /* Reduced top margin for mobile screens */
-    margin-bottom: 60px; /* Reduced bottom margin for mobile screens */
-    text-align: center; /* Center-align text for better mobile layout */
+
+  /* Show navbar items when the menu is open */
+  .navbar-list.open {
     display: flex;
-    flex-direction: column; /* Stacked layout for mobile */
-    align-items: center; /* Center-align items */
+    align-items: flex-start;
+    margin-top: 67px;
   }
-  
-  .navbar-list {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0; /* Reduced margin for mobile devices */
-    text-align: center; /* Center-align navbar items */
-  }
-  
-  .navbar-item {
-    margin-left: 40px;
-    font-family: 'Copperplate', 'Papyrus', 'Playfair Display', Georgia, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    color: #e2e2e2;
-    cursor: pointer;
-    transition: color 0.3s ease;
 
-    display: inline-block; /* Changed to inline-block for better mobile alignment */
-    margin-right: 10px; /* Reduced margin between items */
-    font-size: 16px; /* Adjusted font size for mobile devices */
+  /* Hamburger Menu (Visible on mobile) */
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 90px; /* Position on the right side of the header */
+    z-index: 2; /* Ensure it stays above navbar items */
   }
-  
+
+  /* Adjust navbar items spacing */
+  .navbar-item {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  /* Center social icons when hamburger menu is opened */
   .social-icons {
-    margin-top: 20px; /* Reduced margin-top for mobile screens */
-    font-size: 24px; /* Adjusted font size for mobile devices */
-    text-align: center; /* Center-align social icons */
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    z-index: 0;
   }
-  
-  .logo {
-    background-color: black;
-    width: 80px; /* Reduced logo width for mobile devices */
-    height: auto;
-    margin: 10px; /* Added margin for better positioning */
-    display: block; /* Ensured block display */
-    margin-left: auto; /* Center logo horizontally */
-    margin-right: auto; /* Center logo horizontally */
+
+  /* Adjust social icons' appearance and spacing */
+  .social-icon {
+    margin: 0 10px;
+    font-size: 24px;
   }
+
+
 }
 
 @media (max-width: 480px) {
-  .profile-section {
-    margin-top: 10px; /* Further reduced top margin */
-    margin-bottom: 40px; /* Further reduced bottom margin */
-  }
-
   .navbar-item {
-    font-size: 14px; /* Further adjusted font size for smaller screens */
-    margin-right: 8px; /* Further reduced margin between items */
+    font-size: 14px;
   }
 
-  .social-icons {
-    font-size: 20px; /* Further adjusted font size for smaller screens */
+  .social-icon {
+    font-size: 20px; /* Smaller icons on very small screens */
   }
 
-  .logo {
-    width: 60px; /* Further reduced logo width for very small screens */
+  .hamburger-menu {
+    right: 45px;
+  }
+
+  /* Adjust content spacing for very small screens */
+  .additional-text-sec.content-expanded {
+    margin-top: 200px; /* Further increase on very small screens */
   }
 }

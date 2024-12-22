@@ -55,7 +55,14 @@ p {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .cursive-text {
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 34px;
+    margin-bottom: 20px;
+  }
   .header-title {
     font-size: 30px;
   }
@@ -73,6 +80,10 @@ p {
 }
 
 @media (max-width: 575px) {
+  .cursive-text {
+    padding: 20px;
+  
+}
   .header-title {
     font-size: 24px;
   }
