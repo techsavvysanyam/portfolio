@@ -11,7 +11,7 @@ function About() {
             <div className="logo-wrapper">
               <Image className="logo" src={require("./techsavvy-logo.png")} alt="Logo" />
             </div>
-            <h1 className="header-title">ABOUT</h1>
+            <h1 className="header-title1">ABOUT</h1>
             <p className="cursive-text">
               I am a passionate Android developer with a strong background in IT operations. I thrive on challenges and enjoy finding innovative solutions to complex problems. With a deep love for technology and a constant desire to learn and grow new tech concepts and also share same knowledge by creating content and posting on social platforms, I am always up-to-date with the latest industry trends and updates, and improving all the mix of tech trends day by day.
             </p>

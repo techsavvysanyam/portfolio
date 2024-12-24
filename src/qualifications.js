@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import './About.css';
+import resume from './resume.pdf';
 
 function qualifications() {
   return (
@@ -16,7 +17,7 @@ function qualifications() {
             <br />
             <br />
             <br />
-            <h2 className="projectSS">Education</h2>
+            <h2 className="projectSSE">Education</h2>
               <li className="cursive-text">
                 <strong>Bachelor's Degree in Computer Applications (BCA)</strong>, Govt. College, Dharamshala Affiliated HPU, Shimla.
                 <br />
@@ -31,10 +32,19 @@ function qualifications() {
                 <em>2022 - 2024</em>
                 <br />
               </li>
-            </ul >
-            <br/>
-            <br/>
-            <h2 className="projectSS">Certifications</h2>
+            </ul>
+            <div className="button-container">
+              <Button
+                href={resume}
+                download
+                className="resume-download-btn"
+              >
+                Download Resume
+              </Button>
+            </div>
+            <br />
+            <br />
+            <h2 className="projectSSE">Certifications</h2>
             <ul className="project-list">
               <li>
                 <strong>Android With Kotlin</strong>, Infosys Springboard

@@ -4,6 +4,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 20px; /* Add spacing above the button */
+}
+
+.resume-download-btn {
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 10px; /* Rounded corners */
+  background-color: transparent; /* Transparent interior */
+  color: #fefeff; /* Blue text */
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.resume-download-btn:hover {
+  color: #007bff; /* White text on hover */
+  text-decoration: none;
+}
+
 .about-page {
   background-color: #000;
   color: #fff;
@@ -24,7 +47,7 @@ body {
   margin-top: 10px;
 }
 
-.header-title {
+.header-title1 {
   animation: fadeInUp 1.5s ease-in-out;
   -webkit-text-stroke: 1px #00b7ff;
   color: transparent;
@@ -56,12 +79,20 @@ p {
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
+
+  .header-title1 {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 220px;
+    visibility: hidden;
+  }
   .cursive-text {
     list-style: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
-    margin-top: 34px;
     margin-bottom: 20px;
+    padding-right: 28px;
+    padding-left: 28px;
   }
   .header-title {
     font-size: 30px;
@@ -82,11 +113,7 @@ p {
 @media (max-width: 575px) {
   .cursive-text {
     padding: 20px;
-  
 }
-  .header-title {
-    font-size: 24px;
-  }
 
   h2 {
     text-align: center; /* Left-align h2 on smaller screens */

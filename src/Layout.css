@@ -45,7 +45,7 @@
 }
 
 /* Mobile Layout */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .about-page {
     background-color: #000;
     color: #fff;
@@ -55,7 +55,7 @@
   .profile-section {
     background-color: black;
     margin-bottom: 100px;
-    margin-top: 200px;
+    margin-top: 170px;
     text-align: right;
     display: flex;
     flex-wrap: wrap;
@@ -116,7 +116,10 @@
     margin: 0 10px;
     font-size: 24px;
   }
-
+  /* Adjust content spacing for very small screens */
+  .additional-text-sec.content-expanded {
+    margin-top: 200px; /* Further increase on very small screens */
+  }
 
 }
 

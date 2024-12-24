@@ -68,7 +68,8 @@ body {
 }
 
 .projectSS,
-.projectSSS {
+.projectSSS,
+.projectSSE {
   font-size: 34px;
   font-weight: bold;
   color: #00b7ff;
@@ -79,7 +80,10 @@ body {
 }
 
 @media (max-width: 768px) {
-
+  .project-list li {
+    /* margin-bottom: 40px; */
+    text-align: center;
+  }
   .project-list {
     list-style: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -91,15 +95,22 @@ body {
 
   .projectSSS {
     font-size: 28px; /* Adjust font size for better readability */
-    margin-top: -20px; /* Adjust margin for better spacing */
   }
   .projectSS{
     font-size: 24px; /* Adjust font size for better readability */
-    margin: 90px; /* Adjust margin for better spacing */
+    margin-top: 120px; /* Adjust margin for better spacing */
+  }
+  .projectSSE{
+    font-size: 24px; /* Adjust font size for better readability */
+    margin-top: 120px; /* Adjust margin for better spacing */
   }
 }
 
 @media (max-width: 575px) {
+    .project-list li {
+      /* margin-bottom: 40px; */
+      text-align: center;
+  }
   .projects-page {
     background-color: #000;
     padding: 0px;
@@ -113,7 +124,11 @@ body {
   }
   .projectSS{
     font-size: 24px; /* Adjust font size for better readability */
-    margin-top: 160px; /* Adjust margin for better spacing */
+    margin-top: 170px; /* Adjust margin for better spacing */
+  }
+  .projectSSE{
+    font-size: 24px; /* Adjust font size for better readability */
+    margin-top: 70px; /* Adjust margin for better spacing */
   }
 
 }
