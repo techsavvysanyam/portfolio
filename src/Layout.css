@@ -88,8 +88,8 @@
   .hamburger-menu {
     display: block;
     position: absolute;
-    top: 20px;
-    right: 90px; /* Position on the right side of the header */
+    top: 25px;
+    right: 35px; /* Position on the right side of the header */
     z-index: 2; /* Ensure it stays above navbar items */
   }
 
@@ -133,7 +133,7 @@
   }
 
   .hamburger-menu {
-    right: 45px;
+    right: 25px;
   }
 
   /* Adjust content spacing for very small screens */

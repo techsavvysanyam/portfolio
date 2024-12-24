@@ -84,7 +84,7 @@ p {
   .header-title1 {
     font-size: 24px;
     margin-top: 0px;
-    margin-bottom: 220px;
+    margin-bottom: 160px;
     visibility: hidden;
   }
   .cursive-text {
@@ -112,9 +112,16 @@ p {
 }
 
 @media (max-width: 575px) {
+  .header-title1 {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 125px;
+    visibility: hidden;
+  }
+
   .cursive-text {
     padding: 20px;
-}
+  }
 
   h2 {
     text-align: center; /* Left-align h2 on smaller screens */
