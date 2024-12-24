@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'Copperplate';
+  src: url('./fonts/Copperplate.woff2') format('woff2'),
+       url('./fonts/Copperplate.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Papyrus';
+  src: url('./fonts/Papyrus.woff2') format('woff2'),
+       url('./fonts/Papyrus.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fantasy';
+  src: url('./fonts/Fantasy.woff') format('woff');
+}
+
 body {
   background-color: #000;
   color: #fff;
@@ -174,7 +191,6 @@ ul a:hover {
 
   .navbar-item {
     margin: 0 10px;
-    font-family: Copperplate, Papyrus, fantasy;
   }
 
   .logo {
@@ -253,6 +269,5 @@ ul a:hover {
   .navbar-item {
     margin: 0 5px;
     font-size: 16px;
-    font-family: Copperplate, Papyrus, fantasy;
   }
 }
