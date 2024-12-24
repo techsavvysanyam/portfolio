@@ -157,6 +157,10 @@ h2 {
 }
 
 @media (max-width: 575px) {
+  .contact-page {
+    background-color: #000;
+    margin-top: 270px;
+  }
   h2 {
     margin-top: 5px;
   }

@@ -32,6 +32,7 @@
 .navbar-item {
   display: inline;
   margin-right: 20px;
+  font-family: Copperplate, Papyrus, fantasy;
 }
 
 .social-icons {
@@ -97,6 +98,7 @@
   .navbar-item {
     margin: 10px 0;
     font-size: 20px;
+    font-family: Copperplate, Papyrus, fantasy;
   }
 
   /* Center social icons when hamburger menu is opened */
@@ -126,6 +128,7 @@
 @media (max-width: 480px) {
   .navbar-item {
     font-size: 14px;
+    font-family: Copperplate, Papyrus, fantasy;
   }
 
   .social-icon {
