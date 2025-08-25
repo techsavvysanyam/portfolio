@@ -73,16 +73,16 @@ const Layout = ({ children }) => {
               <a href="https://www.facebook.com/sanyam.soni.14" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebook} className="social-icon" />
               </a>
-              <a href="https://twitter.com/techsavvysanyam" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/sanyam__soni" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faTwitter} className="social-icon" />
               </a>
-              <a href="https://instagram.com/techsavvy.sanyam?igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/techsavvysanyam" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faInstagram} className="social-icon" />
               </a>
-              <a href="https://github.com/Sanyamsoni77" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/techsavvysanyam" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} className="social-icon" />
               </a>
-              <a href="https://www.linkedin.com/in/sanyam-soni-405629241?fbclid=PAAaZEzAfGBldcPHb4d1RrQ41RL6atea562kjYrF66KhArucCnRDjCWDnuN88&original_referer=https%3A%2F%2Fl.instagram.com%2F" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/sanyam-soni" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
               </a>
             </div>
